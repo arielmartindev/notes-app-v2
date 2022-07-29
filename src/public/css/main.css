@@ -1,0 +1,28 @@
+body{
+
+	background: #ff00cc;  
+	/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* El body (o cualquier otro <div>) hace de "contenedor padre" */
+  	display: flex;
+  	flex-direction: column;
+  	min-height: 100vh;
+  	flex-wrap: wrap;
+}
+
+.logo{
+	width: 30%;
+}
+
+.cuerpo {
+  flex-grow: 1; 
+  background-colour: #333333;
+}
+
+footer{
+	width:100%;
+	align-self: flex-end;
+}
